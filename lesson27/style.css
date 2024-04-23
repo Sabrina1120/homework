@@ -1,0 +1,14 @@
+.block{
+  width: 200px;
+  height: 200px;
+  background: #000;
+}
+.block-2{
+  background: #43c443;
+}
+#block{
+  background: #d32abc;
+}
+.div.block{
+  background: #ec150d;
+}
