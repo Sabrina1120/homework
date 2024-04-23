@@ -1,0 +1,20 @@
+.navigation{
+  height: 60px;
+background-color: darksalmon;
+}
+.citata{
+  background-color: bisque;
+}
+.footer{
+  background-color: darkorange;
+}
+video{
+  width: 500px;
+  height: 290px;
+}
+.video1{
+  background-color: lightsteelblue;
+}
+.img1{
+  margin-top: 18px;
+}
