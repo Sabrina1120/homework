@@ -1,0 +1,35 @@
+.one-text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px ;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.two-text{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.three-text{
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.fo-text{
+  font-family: Arial, Helvetica, sans-serif;
+text-decoration:overline wavy;
+word-spacing: 30px;
+text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0
+}
+.five-text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline double;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
