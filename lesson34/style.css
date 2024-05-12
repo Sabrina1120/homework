@@ -1,0 +1,17 @@
+
+.block{
+    padding: 30px;
+    margin: 50px;
+    background: #cf1010;
+    /* display: inline; */
+}
+.inlain{
+   /* display: block; */
+   display: none;
+    background: #cf1010;
+}
+.block{
+    background: #cf1010;  
+    display: inline-block;
+    width: 400px;
+}
