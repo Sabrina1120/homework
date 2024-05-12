@@ -1,0 +1,23 @@
+
+.block{
+  padding: 30px;
+  margin: 50px;
+  background: #cf1010;
+}
+
+.block2{
+/* opacity: 1;
+visibility: hidden; */
+width: 600px;
+height: 100px;
+/* overflow: visible; */
+overflow: hidden;
+/* overflow: auto; */
+overflow: scroll;
+background: #cf1010;
+}
+
+.inlain{
+  background: #cf1010;
+  opacity: .5;
+}
