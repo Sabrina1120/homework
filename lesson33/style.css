@@ -1,0 +1,20 @@
+.body{
+  font-size: 40px;
+}
+*{
+  box-sizing: border-box;
+}
+.block{
+  background: #a5b172;
+}
+
+.block{
+box-shadow:inset 5px 10px 10px 1px #000;
+
+
+}
+.block2{
+  box-shadow:inset 5px 10px 10px 1px #413e3e, 5px -10px 10px #c71e1e;
+
+
+}
