@@ -1,0 +1,47 @@
+body {
+    font-size: 40px;
+    background: #16171b;
+    margin: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    border: 20px solid #edddbd;
+    min-height: 50vh;
+    box-shadow: 0 0 3.75rem -0.625rem #00000066;
+}
+.flexbox__item {
+    border: 20px solid #b9a074;
+}
+.flexbox__item:nth-child(2) .flexbox__content {
+    padding: 60px 40px;
+}
+.flexbox__content {
+    border: none;
+    padding: 40px;
+    background: linear-gradient(#6f4916, #7e5926);
+}
+
+/* ====================================================== */
+
+.flexbox{
+     /* display:inline-flex; */
+     display: flex;
+     /* justify-content: end; (выравнивание по горизонтали, справа,слева,по середине) */
+     /* justify-content:space-evenly;(создаёт пространство между каждым элементом и между краем флексбокса и элементом,с равным пространством) */
+     /* justify-content: space-around;(создаёт равное пространство вокрук каждого элемента) */
+     /* justify-content: space-between;(создаёт пространство между элементами) */
+     justify-content: center;
+     /* align-items: flex-start;(выравнивание по вертикали по верхней границы) */
+     /* align-items: flex-еnd;(по вертикали по нижней границы) */
+     align-items:center;
+     flex-wrap: wrap; 
+     /* (при уменьшении экрана элементы перескакивают,порядок элементов сохраняется) */
+/* flex-wrap: wrap-reverse;(элементы перескакивают,порядок меняется от3к1) */
+    }
