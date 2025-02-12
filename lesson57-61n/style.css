@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(207, 137, 176);
+}
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th,
+caption {
+  border: 1px solid #000;
+}
+
+form{
+  background-color: #e8adad;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson45.46.47.48.49</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <picture>
+    <!-- <source media="(max-width: 1050px)" srcset="img/anime1024x640.jpg">
+    <source media="(max-width: 1250px)" srcset="img/anime640x480.jpg">
+    <img src="img/anime.jpg" alt="Аниме"> -->
+    <source media="(max-width:1250px)" srcset="img/anime.webp" type="image/webp">
+    <source media="(max-width:1250px)" srcset="img/anime.jpg" type="image/jpg">
+    <source srcset="img/anime.webp" type="image/webp">
+    <img src="img/anime.jpg" alt="Аниме">
+  </picture>
+---------------------------------------------------
+  <video controls width="720">
+    <source src="veb/video.mov" type="video/mov">
+    <source src="veb/video.webm" type="video/webm">
+  
+  </video>
+  <audio src="veb/audio.mp3" controls></audio>
+------------------------------------------------------
+<table>
+  <caption>
+    Звёзды
+  </caption>
+<thead>
+  <tr>
+    <th>Искра</th>
+    <th>Искра</th>
+    <th>Искра</th>
+    <th>Искра</th>
+    <th>Искра</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">Взлёт</td>
+    <td>Взлёт</td>
+    <td colspan="2">Взлёт</td>
+    <td>Взлёт</td>
+  </tr>
+  <tr>
+    <td>Взлёт</td>
+    <td >Взлёт</td>
+    <td>Взлёт</td>
+    <td>Взлёт</td>
+  
+  </tr>
+</tbody>
+<tfoot>
+  <tr>
+    <td>Взлёт</td>
+    <td >Взлёт</td>
+    <td>Взлёт</td>
+    <td>Взлёт</td>
+    <td>Взлёт</td>
+  </tr>
+</tfoot>
+</table>
+---------------------------------------------------------------
+<form>
+  <fieldset>
+<legend>Оставьте ваш отзыв</legend>
+<label>Ваша фамилия
+  <input type="text" placeholder="Имя">
+</label>
+<label>
+  Ваш email 
+  <input type="email" placeholder="Email">
+</label>
+<label>Текст сообщения
+  <textarea placeholder="Введите ваше сообщение"></textarea>
+</label>
+<label for="city-Select">Выберите город</label>
+  <select name="city" id="city-Select">
+  <option value="">--</option>
+  <option value="var1">Москва</option>
+  <option value="var2">Самара</option>
+</select>
+<button type="submit">Отправить</button>
+<button type="reset">Очистить</button>
+</fieldset>
+<label>Номер телефона
+  <input type="tel" placeholder="8928-888-09-90">
+</label>
+<label>Сколько вам лет
+  <input type="number" max="100" min="0">
+</label>
+<label>Пароль
+  <input type="password">
+</label>
+<label>
+  Список дел
+  <input type="checkbox" placeholder="Выполнил">
+</label>
+<label>
+  Радио
+  <input type="radio" name="var1">
+  <input type="radio" name="var1">
+  <input type="radio" name="var1">
+</label>
+<label>Файл
+  <input type="file" name="" id="">
+</label>
+<label>Дата
+  <input type="date">
+</label>
+</form>
+</body>
+</html>
