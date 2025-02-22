@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family:"Atkinson Hyperlegible Mono";
+  src: 
+  local('Atkinson Hyperlegible Mono Medium'), 
+  local('AtkinsonHyperlegibleMono-Medium'),
+      url('../fonts/AtkinsonHyperlegibleMono-Medium.woff2') format('woff2'),
+      url('../fonts/AtkinsonHyperlegibleMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Sigmar';
+  src: local('Sigmar Regular'), local('Sigmar-Regular'),
+      url('../fonts/Sigmar-Regular.woff2') format('woff2'),
+      url('../fonts/Sigmar-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
